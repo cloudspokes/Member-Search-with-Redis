@@ -1,0 +1,88 @@
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#content {
+  width: 800px;
+  margin: 0 auto;
+}
+a {
+  color: #c11;
+}
+
+#top h1 {
+  text-align: center;
+  font-size: 64px;
+  font-weight: normal;
+}
+
+
+#top a {
+  color: #000;
+  text-decoration: none;
+}
+
+table.members { width: 100%; border-collapse: collapse; border: 1px solid #ccc; border-bottom: 0; }
+table.members td, table.members th {
+  padding: 5px 10px;
+  vertical-align: middle;
+  border-bottom: 1px solid #ccc;
+}
+
+table.members th {
+  text-align: left;
+  border-right: 1px solid #ddd;
+  background: #eee;
+}
+
+table.members td { color: #aaa; }
+
+table.members td a {
+  color: #39c;
+  font-size: 12px;
+  text-decoration: none
+}
+
+#search {
+  padding: 20px 30px;
+}
+
+#search input, #search button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  padding: 10px 15px;
+}
+
+#search input {
+  width: 530px;
+  border: 1px solid #ddd;
+}
+
+#search button {
+  background: #c11;
+  color: white;
+  border: 1px solid #911;
+}
+
+#bottom {
+  text-align: center;
+  padding: 70px 0 20px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+#bottom a {
+  color: #999;
+}
+
+#add_form label, #add_form input {
+  font-size: 18px;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+}
+
+#add_form label { float: left; width: 150px; text-align: right; }
+#add_form input { display: block; }
+#add_form button { font-size: 18px; padding: 5px 8px; margin: 0 0 0 174px; }
+
+#content h1 { color: #c11; font-weight: normal; padding: 6px 12px; border-bottom: 1px solid #c77; }

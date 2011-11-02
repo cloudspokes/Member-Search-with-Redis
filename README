@@ -1,0 +1,22 @@
+Member Search with Redis
+
+URL: http://www.cloudspokes.com/challenge_detail.html?contestID=323
+Challenge end date: 10/21/2011
+Winner: http://www.cloudspokes.com/profile.html?username=mbleigh
+Blog: http://blog.cloudspokes.com/2011/11/video-member-search-with-redis-winner.html
+
+Description
+===========
+Redis, and NoSQL in general, is all the rage right now and what’s not to love? Redis is an extremely fast, atomic key-value store that allows for the storage of strings, sets, sorted sets, lists and hashes. In order to achieve its outstanding performance, Redis works with an in-memory dataset that periodically writes to disk. It’s open source, easy to install, has a growing and vibrant community and is perfect for cloud applications. 
+
+It’s easy to get started with Redis. It is already baked into Cloud Foundry and there is a Heroku add-on for Java and Ruby. It couldn’t be much simpler to get started.
+
+This is a great little app to get you started with Redis. We’d like to build a simple member search page that uses Redis instead of our API to find members by keyword. The user should be able to search for members by keyword (jQuery would be cool here!) and then select a member which would then show their profile page.
+
+No integration with our API is required; you can just stub out the member data.
+
+Requirements
+============
+Populate Redis with some sample member data (does not need to be integrated with our API). Write a simple search interface that searches the Redis data store by keyword and returns matching members. Users can click on the returned records to view the actual member’s profile page on CloudSpokes. See Create Tags for an Object and Search for Tags for an example.
+
+Use any PaaS platform that you like. Heroku offers a free Redis add-on for Java and Ruby while Redis is baked into Cloud Foundry. The Getting Started with Java on Heroku/Cedarquickstart has a complete tutorial using Redis while there are plenty of Ruby examples available on the web. See the Additional Info section for some links.

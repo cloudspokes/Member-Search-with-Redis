@@ -1,0 +1,16 @@
+<%= erb :search_form %>
+
+<h1><%= @members.size %> Members Matching '<%= @query %>'</h1>
+
+<% if @members.any? %>
+  <table class='members'>
+    <% for member in @members %>
+    <tr>
+      <th><a href='/member/<%= member.username %>'><%= member.name %></a></th>
+      <td><%= Member.tokenize(*member.keywords).map{|k| "<a href='/search?q=#{k}'>#{k}</a>"}.join(', ') %></td>
+    </tr>
+    <% end %>
+  </table>
+<% else %>
+  <p>No members found. I think you're getting a bit too specific.</p>
+<% end %>
